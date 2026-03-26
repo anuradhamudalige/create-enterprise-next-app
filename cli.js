@@ -13,7 +13,7 @@ const rl = readline.createInterface({
 async function promptUser() {
   return new Promise((resolve) => {
     rl.question('App name (microservice name in Cloud ex: country-demo-enterprise-app)? ', (appName) => {
-      rl.question('CICD Repo URL? (CICD git URL for the namespace ex: git@mfc-singapore/country-enterprise-cicd.git) ', (cicdRepoUrl) => {
+      rl.question('CICD Repo URL? (CICD git URL ex: git@menterprise-cicd.git) ', (cicdRepoUrl) => {
         resolve({ appName, cicdRepoUrl });
         rl.close();
       });
@@ -110,7 +110,7 @@ async function main() {
       console.log('Please run "npm install" manually after navigating to your project directory.');
     }
 
-    console.log('\nSuccess! Your new Manulife Next.js Mux app is ready.');
+    console.log('\nSuccess! Your Enterprise Next.js Mux app is ready.');
     console.log('\nInside that directory, you can run several commands:');
     console.log('\n  npm run dev');
     console.log('    Starts the development server');

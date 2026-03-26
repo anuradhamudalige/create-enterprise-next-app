@@ -16,7 +16,7 @@ import { Providers } from '@/context/providers';
  * @since August 2025
  */
 export const metadata: Metadata = {
-  title: 'Manulife Singapore - Title',
+  title: 'Your Title',
   description: 'Your description',
   icons: [{rel: 'icon', url: FavIcon.src}],
 };

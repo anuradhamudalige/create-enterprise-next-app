@@ -60,29 +60,16 @@ NEWRELIC_AGENT_SCRIPT_FILENAME=dev-agent.min.js
 
 ## Guides
 
-- Developer Guide https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/230689973/NextJS+Framework+-+Developer+Guide
-- Integrating NextAuth https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/235176765/Integrating+NEXT-AUTH+with+NextJS
-- Integrating Authorization using azure (ACL based) https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/239759391/Integrating+Authorization+using+ACL
-- Setting up RCS client with NextJS https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/235176277/Setting+up+RCS+client+in+NextJS+project
-- Setting up NewRelic Agent (client) https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/330814728/NewRelic+Browser+Integration+with+NextJS
-- Setting up NewRelic (server) https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/294389249/Integrate+NewRelic+with+NextJS+Backend
+- Developer Guide
+- Integrating NextAuth
+- Integrating Authorization using azure (ACL based)
+- Setting up NewRelic Agent (client)
+- Setting up NewRelic (server)
 
 ## Libraries in action
 
-- MUX - UI component library [Link](https://mux.manulife.com)
 - InversifyJS - Dependency injection library [Link](https://inversify.io/)
 - Luxon - Date and time library [Link](https://moment.github.io/luxon/)
-
-## MUX Library
-
-MUX is a component library and a set of accompanying tools to help you build modern, accessible user interfaces in React
-- https://mux.manulife.com/docs/welcome
-
-
-## RSF Library and logging
-RSF libraries and logging implementation from confluence
-- https://manulife-asia.atlassian.net/wiki/spaces/FE/pages/65087131/Create+React+Shared+component+library
-- https://manulife-asia.atlassian.net/wiki/spaces/FE/pages/65086818/Logging+implementation-demo-ui-react-app
 
 ## Executing API requests using provided BaseClient (Optional)
 To execute API requests in your Next.js application, you can use the `BaseClient` provided in the `src/server/external/api/common` directory. This client is designed to handle API requests with built-in error handling and logging.
@@ -131,12 +118,6 @@ export class YourClient extends BaseClient {
   }
 }
 ```
-
-## Deploy to AKS
-
-The easiest way to deploy your Next.js app on AKS is to use the [pipelineNodeJSAKSCIPlus](https://manulife-asia.atlassian.net/wiki/spaces/ADFG/pages/58164181/Integrate+With+NodeJS+Speed-Up+Pipeline) from the ATO.
-
-Check out our [Next.js deployment documentation](https://manulife-asia.atlassian.net/wiki/spaces/SISE/pages/206570069/How+to+Deploy+a+Next.js+Project+to+AKS) for more details.
 
 ## Learn More
 
