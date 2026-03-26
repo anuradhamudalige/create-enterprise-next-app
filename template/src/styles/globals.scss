@@ -1,0 +1,20 @@
+@use 'variables' as vars;
+@use 'sass:color';
+@use 'type';
+@use 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  height: auto;
+}
+
+.leading-0 {
+  line-height: 0;
+}
+
+.text-xxs {
+  font-size: vars.$font-size-extra-small;
+}

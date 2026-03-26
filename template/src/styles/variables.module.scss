@@ -1,0 +1,20 @@
+@use 'variables' as *;
+
+:export {
+  primaryColor: $primary-color;
+  white: $white-0;
+  headerHeight: $header-height;
+  red: $red-0;
+  red1: $red-1;
+  darkRed: $red-2;
+  gray: $gray-0;
+  darkGreen: $green-2;
+  green: $green-0;
+  white5: $white-5;
+  blue2: $blue-2;
+  black: $black-1;
+  orange: $orange-0;
+  orange1: $orange-1;
+  lightBlue: $blue-5;
+  purple: $purple-0;
+}

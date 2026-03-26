@@ -1,0 +1,10 @@
+{
+  "name": "@ymss/create-enterprise-next-app",
+  "version": "1.0.0",
+  "bin": {
+    "create-next-mux-app": "./cli.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.3"
+  }
+}

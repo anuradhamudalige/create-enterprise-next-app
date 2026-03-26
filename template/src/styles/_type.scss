@@ -1,0 +1,123 @@
+@use 'variables' as vars;
+@tailwind base;
+
+body {
+  font-size: vars.$font-size-normal;
+}
+
+@layer base {
+  h1 {
+    font-size: vars.$font-size-h1;
+  }
+
+  h2 {
+    font-size: vars.$font-size-h2;
+    line-height: 1.375;
+  }
+
+  h3 {
+    font-size: vars.$font-size-h3;
+  }
+
+  h4 {
+    font-size: vars.$font-size-h4;
+  }
+
+  h5 {
+    font-size: vars.$font-size-h5;
+    font-weight: vars.$font-weight-semibold;
+  }
+
+  h6 {
+    font-size: vars.$font-size-h6;
+    font-weight: vars.$font-weight-semibold;
+  }
+
+  .text-normal {
+    font-size: vars.$font-size-normal;
+  }
+
+  @media (min-width: vars.$breakpoint-md) {
+    h1 {
+      font-size: vars.$font-size-h1-md;
+    }
+
+    h2 {
+      font-size: vars.$font-size-h2-md;
+    }
+
+    h3 {
+      font-size: vars.$font-size-h3-md;
+    }
+
+    h4 {
+      font-size: vars.$font-size-h4-md;
+    }
+
+    h5 {
+      font-size: vars.$font-size-h5-md;
+      font-weight: vars.$font-weight-semibold;
+    }
+
+    h6 {
+      font-size: vars.$font-size-h6;
+      font-weight: vars.$font-weight-semibold;
+    }
+  }
+
+  @media (min-width: vars.$breakpoint-lg) {
+    h1 {
+      font-size: vars.$font-size-h1-lg;
+    }
+
+    h2 {
+      font-size: vars.$font-size-h2-lg;
+    }
+
+    h3 {
+      font-size: vars.$font-size-h3-lg;
+    }
+
+    h4 {
+      font-size: vars.$font-size-h4-lg;
+    }
+
+    h5 {
+      font-size: vars.$font-size-h5-lg;
+      font-weight: vars.$font-weight-semibold;
+    }
+
+    h6 {
+      font-size: vars.$font-size-h6;
+      font-weight: vars.$font-weight-semibold;
+    }
+  }
+
+  @media (min-width: vars.$breakpoint-xl) {
+    h1 {
+      font-size: vars.$font-size-h1-xl;
+    }
+
+    h2 {
+      font-size: vars.$font-size-h2-xl;
+    }
+
+    h3 {
+      font-size: vars.$font-size-h3-xl;
+    }
+
+    h4 {
+      font-size: vars.$font-size-h4-xl;
+    }
+
+    h5 {
+      font-size: vars.$font-size-h5-xl;
+      font-weight: vars.$font-weight-semibold;
+    }
+
+    h6 {
+      font-size: vars.$font-size-h6;
+      font-weight: vars.$font-weight-semibold;
+    }
+  }
+}

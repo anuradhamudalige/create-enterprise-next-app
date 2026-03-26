@@ -1,0 +1,127 @@
+@use 'sass:math';
+
+// Font size
+$base-font-size: 16; // px
+
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+$font-size-normal: $base-font-size * 1px;
+
+$font-size-h1: math.div(32rem, $base-font-size);
+$font-size-h1-md: math.div(48rem, $base-font-size);
+$font-size-h1-lg: math.div(48rem, $base-font-size);
+$font-size-h1-xl: math.div(48rem, $base-font-size);
+
+$font-size-h2: math.div(26rem, $base-font-size);
+$font-size-h2-md: math.div(32rem, $base-font-size);
+$font-size-h2-lg: math.div(32rem, $base-font-size);
+$font-size-h2-xl: math.div(32rem, $base-font-size);
+
+$font-size-h3: math.div(24rem, $base-font-size);
+$font-size-h3-md: math.div(24rem, $base-font-size);
+$font-size-h3-lg: math.div(24rem, $base-font-size);
+$font-size-h3-xl: math.div(24rem, $base-font-size);
+
+$font-size-h4: math.div(22rem, $base-font-size);
+$font-size-h4-md: math.div(22rem, $base-font-size);
+$font-size-h4-lg: math.div(22rem, $base-font-size);
+$font-size-h4-xl: math.div(22rem, $base-font-size);
+
+$font-size-h5: math.div(14rem, $base-font-size);
+$font-size-h5-md: math.div(14rem, $base-font-size);
+$font-size-h5-lg: math.div(16rem, $base-font-size);
+$font-size-h5-xl: math.div(18rem, $base-font-size);
+
+$font-size-h6: $font-size-normal;
+
+$font-size-large: math.div(22rem, $base-font-size);
+$font-size-medium: math.div(14rem, $base-font-size);
+$font-size-small: math.div(12rem, $base-font-size);
+$font-size-extra-small: math.div(10rem, $base-font-size);
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+//colours
+
+// black
+$black-0: #282B3E;
+$black-1: #1E212F;
+$black-2: #000;
+$black-3: #18181b;
+
+//white
+$white-0: #FFFFFF;
+$white-1: #FAFAFA;
+$white-2: #FAFAFA;
+$white-3: #EDEDED;
+$white-4: #DDDEE4;
+$white-5: #F5F5F5;
+
+//green
+$green-0: #00A758;
+$green-1: #CAEED9;
+$green-2: #06874E;
+$green-3: #046138;
+
+//gray
+$gray-0: #8E90A2;
+$gray-1: #e5e7eb;
+$gray-2: #5E6073;
+$gray-3: #E5E5E8;
+
+//blue
+$blue-0: #0000C1;
+$blue-1: #34384B;
+$blue-2: #2D69FF;
+$blue-3: #00009A;
+$blue-4: #C1D8F7;
+$blue-5: #76B0FF;
+
+//red
+$red-0: #EC6453;
+$red-1: #DB1F00;
+$red-2: #D03A39;
+
+//yellow
+$orange-0: #D77D28;
+$orange-1: #FFBF00;
+$orange-2: #E38400;
+$orange-3: #FCC457;
+$orange-5: #F49600;
+
+// purple
+$purple-0: #4C336B;
+
+$header-height: 68px;
+$banner-height: 68px;
+$footer-height: 1rem;
+
+// z-index
+$header-z-index: 20;
+$banner-z-index: $header-z-index;
+$signin-img-z-index: $header-z-index + 1;
+$chat-assistance-z-index: 2;
+$overlay-window-z-index: 50; // this is provided by the modal library
+$notification-z-index: $overlay-window-z-index + 1;
+
+// Spaces
+$space-xxs-4: math.div(4rem, $base-font-size);
+$space-xxs: math.div(8rem, $base-font-size);
+$space-xs-10: math.div(10rem, $base-font-size);
+$space-xs: math.div(12rem, $base-font-size);
+$space-s: math.div(16rem, $base-font-size);
+$space-xm: math.div(20rem, $base-font-size);
+$space-m: math.div(24rem, $base-font-size);
+$space-l: math.div(32rem, $base-font-size);
+$space-l-48: math.div(48rem, $base-font-size);
+$space-l-56: math.div(56rem, $base-font-size);
+$space-l-64: math.div(64rem, $base-font-size);
+$space-xl: math.div(80rem, $base-font-size);
+$space-xxl: math.div(140rem, $base-font-size);
+
+$primary-color: $green-0;
