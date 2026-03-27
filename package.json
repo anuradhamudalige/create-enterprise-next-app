@@ -1,6 +1,36 @@
 {
   "name": "@ymss/create-enterprise-next-app",
   "version": "1.0.0",
+  "description": "CLI to scaffold an enterprise-ready Next.js application from a reusable template.",
+  "keywords": [
+    "nextjs",
+    "cli",
+    "scaffold",
+    "starter",
+    "enterprise"
+  ],
+  "author": {
+    "name": "Anuradha Mudalige",
+    "url": "https://github.com/anuradhamudalige"
+  },
+  "contributors": [
+    {
+      "name": "Anuradha Mudalige",
+      "url": "https://medium.com/@theanuradha"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuradhamudalige/create-enterprise-next-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anuradhamudalige/create-enterprise-next-app/issues"
+  },
+  "homepage": "https://github.com/anuradhamudalige/create-enterprise-next-app#readme",
+  "files": [
+    "cli.js",
+    "template"
+  ],
   "bin": {
     "create-enterprise-next-app": "./cli.js"
   },
