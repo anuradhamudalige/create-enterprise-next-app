@@ -1,5 +1,5 @@
 {
-  "name": "@ymss/create-enterprise-next-app",
+  "name": "@ymssa/create-enterprise-next-app",
   "version": "1.0.0",
   "description": "CLI to scaffold an enterprise-ready Next.js application from a reusable template.",
   "keywords": [

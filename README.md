@@ -12,7 +12,7 @@ CLI to scaffold a production-ready Enterprise Next.js app from the bundled `temp
 Run the package directly without installing it globally:
 
 ```bash
-npx @ymss/create-enterprise-next-app
+npx @ymssa/create-enterprise-next-app
 ```
 
 The CLI asks for:
@@ -53,7 +53,7 @@ This package is currently **interactive only**.
 Use:
 
 ```bash
-npx @ymss/create-enterprise-next-app
+npx @ymssa/create-enterprise-next-app
 ```
 
 ## Local development (maintainer)
