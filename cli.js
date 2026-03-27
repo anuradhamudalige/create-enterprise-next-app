@@ -80,7 +80,7 @@ async function copyDirectory(source, destination, vars) {
 
 async function main() {
   try {
-    console.log('Creating a new Next.js MUX app...');
+    console.log('Creating a new Next.js enterprise app...');
     const vars = await promptUser();
 
     const templateDir = path.resolve(__dirname, 'template');
@@ -110,7 +110,7 @@ async function main() {
       console.log('Please run "npm install" manually after navigating to your project directory.');
     }
 
-    console.log('\nSuccess! Your Enterprise Next.js Mux app is ready.');
+    console.log('\nSuccess! Your Enterprise Next.js enterprise app is ready.');
     console.log('\nInside that directory, you can run several commands:');
     console.log('\n  npm run dev');
     console.log('    Starts the development server');
